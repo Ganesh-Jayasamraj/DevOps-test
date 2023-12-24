@@ -10,9 +10,6 @@ node{
     }
     
     stage("Docker Build Image"){
-        sh 'ls'
-        sh 'cd target'
-        sh 'ls'
         sh "docker build -t myapp1 ."
     }
     
